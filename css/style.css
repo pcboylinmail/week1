@@ -1,0 +1,187 @@
+.header, .content, .skills-info, .workexp {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header h1 {
+    font-size: 80px;
+    line-height: 90px;
+    margin-bottom: 24px;
+}
+
+.header .NickName {
+    font-family: "Andale Mono", sans-serif;
+    border-bottom: 2px solid black;
+    padding-top: 48px;
+    margin-bottom: 48px;
+}
+
+.header .photo {
+    margin-bottom: 48px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #000;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+}
+
+.title h2 {
+    font-size: 32px;
+    line-height: 45px;
+}
+
+.skills-info .title, .footer .title {
+    justify-content: center;
+    border-color: transparent;
+}
+
+.skills-info .title h2, .footer .title h2 {
+    padding: 0 8px;
+    color: white;
+    font-family: "Roboto Medium", sans-serif;
+}
+
+.titleName {
+    font-family: "Roboto Medium", sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    color: #A00404;
+    padding-left: 16px;
+}
+
+.content-list ul {
+    margin-bottom: 24px;
+    padding-left: 48px;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.content-list ul li {
+    position: relative;
+}
+
+.content-list .dot:before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    background-color: #96A9C4;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: -32px;
+}
+
+.education .content-list ul li:first-child:after {
+    content: "";
+    width: 1px;
+    height: 66px;
+    background: #96A9C4;
+    position: absolute;
+    top: 18px;
+    left: -24px;
+}
+
+.skills {
+    position: relative;
+}
+
+.skills:before {
+    content: "";
+    width: 100%;
+    height: 360px;
+    position: absolute;
+    background: #96A9C4;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.skills-info {
+    background-color: #415165;
+    height: 494px;
+    padding-top: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-list {
+    width: 996px;
+    padding-bottom: 55.5px;
+    border-top: 1px solid white;
+    padding-top: 40px;
+}
+
+.skills-list-content {
+    width: 216px;
+    height: 321.5px;
+    padding-left: 23px;
+    border-left: 1px solid #96A9C4;
+    font-size: 24px;
+    line-height: 36px;
+    color: white;
+    margin: 0 auto;
+}
+
+.workexp-content ul li h3 {
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.workexp-content ul li img {
+    margin: 8 0;
+}
+
+.workexp-content ul li p {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: lighter;
+}
+
+.footer {
+    width: 100%;
+    height: 401px;
+    background-color: #415165;
+    padding-top: 24px;
+    padding-left: 360px;
+    padding-right: 360px;
+}
+
+.footer .footer-content {
+    padding: 32px 0;
+    height: 324px;
+    border-top: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer .footer-content p {
+    margin-bottom: 16px;
+    font-weight: lighter;
+    color: white;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.footer .footer-content .grouplist {
+    display: flex;
+    justify-content: center;
+}
+
+.footer .footer-content .grouplist a {
+    margin-left: 24px;
+}
+
+.mg-bt-32 {
+    margin-bottom: 32px;
+}
+
+.mg-bt-72 {
+    margin-bottom: 72px;
+}
